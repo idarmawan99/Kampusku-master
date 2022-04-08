@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.idarmawan.kampusku">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeTwo">
+        <activity
+            android:name="com.idarmawan.kampusku.DetailDataActivity"
+            android:label="Detail Data"
+            android:parentActivityName="com.idarmawan.kampusku.DetailDataActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.idarmawan.kampusku.UpdateDataActivity"
+            android:label="Update Data"
+            android:parentActivityName="com.idarmawan.kampusku.UpdateDataActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.idarmawan.kampusku.InformasiActivity"
+            android:label="Tentang Aplikasi"
+            android:parentActivityName="com.idarmawan.kampusku.InformasiActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.idarmawan.kampusku.InputDataActivity"
+            android:label="Input Data"
+            android:parentActivityName="com.idarmawan.kampusku.InputDataActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.idarmawan.kampusku.DataMahasiswaActivity"
+            android:label="Data Mahasiswa"
+            android:parentActivityName="com.idarmawan.kampusku.DataMahasiswaActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.idarmawan.kampusku.SplashScreenActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.idarmawan.kampusku.MainActivity"
+            android:label="Dashboard"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>
